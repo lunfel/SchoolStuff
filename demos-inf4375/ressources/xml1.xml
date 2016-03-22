@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cours>
+  <titre>Paradigme des échanges Internet</titre>
+  <sigle>INF4375</sigle>
+  <professeur>Jacques Berger</professeur>
+  <demonstrateurs>
+    <demonstrateur>
+      <prenom>Mathieu</prenom>
+      <nom>Tanguay</nom>
+    </demonstrateur>
+    <demonstrateur>
+      <prenom>Alexandre</prenom>
+      <nom>Terrasa</nom>
+    </demonstrateur>
+  </demonstrateurs>
+</cours>

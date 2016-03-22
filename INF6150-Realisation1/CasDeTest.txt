@@ -1,0 +1,22 @@
+1. Test des ancienne règles + nouvelle
+
+Commencer par 1 nombre
+
+Dire oui
+
+Entree 200
+
+Selectioner 2 carte
+
+Selectioner 1 a 5 (5 étant la nouvelle)
+
+Regarder résultat.
+
+Répété plusieurs fois (5 fois chaque règle)
+
+
+
+
+
+Anormalité trouver:
+Lorsqu'on gagne de l'argent, on a Bravo ! Vous avez gagné !11 $. Le ! devrais être apres le 11$

@@ -1,0 +1,56 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, Serif, Times;
+    margin: 10px 40px 10px 40px;
+}
+
+.centered {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.login {
+    width: 500px;
+    text-align: center;
+    /*border: 1px solid;*/
+}
+
+.contenu {
+    
+}
+
+.central {
+    float: left;
+}
+
+input.cool {
+    padding: 5px 10px 5px 10px;
+}
+
+ul.no-icon li {
+    list-style-type: none;
+}
+
+button {
+    padding: 5px 10px 5px 10px;
+    cursor: pointer;
+}
+
+.left-nav {
+    width: 200px;
+    height: 800px;
+    float: left;
+    border: 2px solid;
+}
+
+div {
+    padding: 10px;
+}
+
+textarea {
+    width: 500px;
+    height: 100px;
+}
+
+.corner-nav {
+    float: right;
+}

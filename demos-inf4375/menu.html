@@ -1,0 +1,5 @@
+<ul class="dropdown-menu" role="menu">
+	<?php foreach(require('menu-items.php') as $key => $sem): ?>
+		<li><a href="semaine<?php print $key; ?>.php">Semaine du <?php print $sem; ?></a></li>
+	<?php endforeach; ?>
+</ul>

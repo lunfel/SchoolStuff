@@ -1,0 +1,118 @@
+		div.conteneur{
+				width: 800px;
+				position:relative;
+				margin-left: auto;
+				margin-right: auto;
+			}
+			div.info h3{
+				color:rgb(40,40,40);
+				text-decoration: underline;
+			}
+			div.entete{
+				text-align:center;
+				background-color: rgb(72,72,72);
+				font-size:24pt;
+				color:green;
+				height:100px;
+				left:5px;
+			}
+			
+			div.info{
+				position:absolute;
+				width: 800px;
+				height:300px;
+				background-color:rgb(216,216,216);
+			}
+	
+			div.contenugauche{
+				font-size:16px
+				width:100px;
+				position:absolute;
+				background-color: rgb(216,216,216);
+				color:white:
+				height:280px;
+				left:10px;
+				top:5px;
+				text-align: left;
+				color: white;
+			}
+			
+			div.contenugauche a {
+				border:2px inset #CCCCCC;
+				padding:3px 15px;
+				color:#FFFFFF;
+				background-color: green;
+				font-family: Arial;
+				font-size:small;
+				font-weight: bold;
+				text-align: center;
+				text-decoration:none; 
+			}
+			div.contenugauche a:link{
+				color: white;
+			}
+			
+				div.contenugauche a:visited{
+				color: #CCCCCC;
+			}
+			
+			div.contenugauche a:focus{
+				color: #dda0dd;
+				background-color: #000000;
+				border:2px outset #000000;
+			}
+			
+			div.contenugauche a:hover{
+				color: #ffff66;
+				border:4px outset #cccccc;
+			}
+			
+			div.contenugauche a:active{
+				color: #ffff62;
+				border:4px outset #000000;
+			}
+
+			div.principale{
+				text-align:center;
+				width: 410px;
+				position:absolute;
+				background-color: gray;
+				color:white;
+				height:280px;
+				left:183px;
+				top:5px;
+				color: rgb(40,40,40);
+			}
+			
+			div.secondaire{
+				width: 180px;
+				position:absolute;
+				background-color: gray;
+				color:white;
+				height:280px;
+				left:605px;
+				top:5px;
+				color: rgb(40,40,40);
+			}
+			
+			div.baspage{
+				position:absolute;
+				width:800px;
+				height:100px;
+				left:10px;
+				top:432px;
+			}
+			div.bas{
+				text-align:center;
+				font-size:small;
+				background-color: rgb(40,40,40);
+				color:white;
+				clear:both;
+				border-top:1px solid black;
+				height: 100px;
+				width:800px;
+				left:0px;
+				top:400px;
+				position:absolute;
+			}
+		

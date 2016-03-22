@@ -1,0 +1,19 @@
+{
+  "cours": {
+    "titre": "Paradigme des échanges Internet",
+    "sigle": "INF4375",
+    "professeur": "Jacques Berger",
+    "demonstrateurs": {
+      "demonstrateur": [
+        {
+          "prenom": "Mathieu",
+          "nom": "Tanguay"
+        },
+        {
+          "prenom": "Alexandre",
+          "nom": "Terrasa"
+        }
+      ]
+    }
+  }
+}

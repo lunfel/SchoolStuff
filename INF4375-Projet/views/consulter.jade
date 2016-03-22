@@ -1,0 +1,13 @@
+extends layout
+
+block caption
+    a.navbar-brand(href="/") Article
+
+block content
+    .article
+        h1 #{article.titre} 
+            small #{article.auteur}
+        h3.text-muted #{article.date_pub} 
+        each para in article.contenu
+            p= para
+        a.btn.btn-primary(href="/admin/#{article.id}") Modifier

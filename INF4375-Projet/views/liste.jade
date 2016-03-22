@@ -1,0 +1,24 @@
+extends layout
+
+block caption
+    a.navbar-brand(href="/") Accueil
+
+block content
+    - var size = articles.length
+    - for (var i = 0; i < size && i < 3; i++)
+        h3 #{articles[i].titre}  
+        .row
+           .col-md-4 #{articles[i].date_pub} 
+           .col-md-4 #{articles[i].auteur}
+        p
+        each para in articles[i].contenu
+            p= para
+        p
+
+    h3 Liste des articles
+    each article in articles
+        .row
+            .col-md-6
+                a(href='/#{article.id}') #{article.titre} 
+
+    

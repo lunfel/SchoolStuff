@@ -1,0 +1,26 @@
+extends layout
+
+
+block caption
+    a.navbar-brand(href="/") Publier
+
+block jsview
+    script(src="/scripts/nouveau.js").
+
+block content
+    .medium-container
+        form#frmPublier(action="/admin/publier", method="POST", role="form")
+            .form-group
+                label(for="txtTitre") Titre
+                input#txtTitre.form-control.popmsg(type='text', name='article[titre]', data-content="Le titre ne doit pas être vide")
+            .form-group
+                label(for="txtAuteur") Auteur
+                input#txtAuteur.form-control.popmsg(type='text', name='article[auteur]', data-content="L'auteur ne doit pas être vide")
+            .form-group
+                label(for="txtContenu") Contenu
+                textarea#txtContenu.form-control.popmsg(name="contenu", data-content="Le contenu ne doit pas être vide")
+            .form-group
+                button#btn-ajouter.btn.btn-primary
+                    span.glyphicon.glyphicon-plus-sign
+                    |  Publier
+    
